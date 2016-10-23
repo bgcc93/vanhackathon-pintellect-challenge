@@ -2,7 +2,7 @@
   "name": "pintellect-scrapper",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor --settings settings.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
