@@ -1,0 +1,41 @@
+{
+  "name": "pintellect-scrapper",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bufferutil": "^1.2.1",
+    "cors": "^2.8.1",
+    "meteor-node-stubs": "~0.2.0",
+    "radium": "^0.18.1",
+    "react": "^15.3.2",
+    "react-addons-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-komposer": "^1.13.1",
+    "react-mounter": "^1.2.0",
+    "slackbots": "^0.5.3",
+    "utf-8-validate": "^1.2.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.5.2",
+    "babel": "^6.5.2",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-root-slash-import": "^1.1.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-import-resolver-meteor": "^0.3.3",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^6.4.1"
+  }
+}
